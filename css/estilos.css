@@ -14,7 +14,6 @@ h1{
     font-weight: lighter;
     z-index: 10;
     margin: 0;
-
 }
 #aretha{
     position: absolute;
@@ -37,6 +36,11 @@ h1{
     background-color: rgba(255,0,255, .30);
     z-index: 2;
 }
+#c1:hover #aretha {
+    Transition: 2s;
+    Height:200%;
+    Margin-top: -50%;
+}
 #dionne{
     position: absolute;
     top: 0;
@@ -57,6 +61,11 @@ h1{
     height: 100%;
     background-color: rgba(0,0,255, .30);
     z-index: 2;
+}
+#c2:hover #dionne {
+    Transition: 2s;
+    Height:200%;
+    Margin-top: -50%;
 }
 #diana{
     position: absolute;
@@ -79,6 +88,11 @@ h1{
     background-color: rgba(255,0,153, .30);
     z-index: 2;
 }
+#c3:hover #diana {
+    Transition: 2s;
+    Height:200%;
+    Margin-top: -50%;
+}
 #etta{
     position: absolute;
     top: 0;
@@ -99,4 +113,9 @@ h1{
     height: 100%;
     background-color: rgba(0,153,255, .30);
     z-index: 2;
+}
+#c4:hover #etta {
+    Transition: 2s;
+    Height:200%;
+    Margin-top: -50%;
 }

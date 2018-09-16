@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+p{
+    color: gray;
+    font-family: "open sans",sans-serif;
+    font-weight: 400;
+}
+em{
+    color: #507297;
+    font-family: "open sans",sans-serif;
+    font-weight: 700;
+}
+strong{
+    color: black;
+}
+header {
+    margin: auto;
+    width: 100%;
+    max-width: 750px;
+    background-color: white;
+}
+figure {
+    height: 100%;
+}
+figure img {
+    width: 25%;
+}
+.titulos {
+    width: 70%;
+    float: left;
+    font-family: Lobster, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+nav{
+    position: absolute;
+    margin:auto;
+    left: 0;
+    background-color: gray;
+    font-family: "open sans", sans-serif;
+    padding: 20;
+}
+a{
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+.cl{
+    font-family: lobster, cursive;
+    font-size: 8em;
+    float: left;
+}
