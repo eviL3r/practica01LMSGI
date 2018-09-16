@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*{
+    font-family: lobster,cursive;
+}
+h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 150px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    text-shadow: black 0 0 50px;
+    font-weight: lighter;
+    z-index: 10;
+    margin: 0;
+
+}
+#aretha{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/aretha.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#aretha div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,0,255, .30);
+    z-index: 2;
+}
+#dionne{
+    position: absolute;
+    top: 0;
+    left:25%;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/dionne.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#dionne div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,255, .30);
+    z-index: 2;
+}
+#diana{
+    position: absolute;
+    top: 0;
+    left:50%;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/diana.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#diana div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,0,153, .30);
+    z-index: 2;
+}
+#etta{
+    position: absolute;
+    top: 0;
+    left:75%;
+    width: 25%;
+    height: 100%;
+    background-image: url("../img/etta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#etta div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,153,255, .30);
+    z-index: 2;
+}
