@@ -9,6 +9,7 @@ p{
     color: gray;
     font-family: "open sans",sans-serif;
     font-weight: 400;
+    text-align: justify;
 }
 em{
     color: #507297;
@@ -49,7 +50,8 @@ nav{
     left: 0;
     background-color: gray;
     font-family: "open sans", sans-serif;
-    padding: 20;
+    padding: 25px;
+    color: white;
 }
 a{
     margin: 0;
@@ -57,8 +59,18 @@ a{
     color: white;
     padding: 2px;
 }
+a:hover{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
 .cl{
     font-family: lobster, cursive;
     font-size: 8em;
     float: left;
+}
+main{
+    width: 750px;
+    margin: auto;
+
 }
